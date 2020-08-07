@@ -6,7 +6,7 @@
 #    By: trahman <trahman@student.hive.fi>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/06/23 12:05:26 by trahman           #+#    #+#              #
-#    Updated: 2020/06/29 19:38:35 by trahman          ###   ########.fr        #
+#    Updated: 2020/07/07 13:44:35 by trahman          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,9 @@ SRCS = ft_putchar.c ft_putchar_fd.c ft_putnbr.c ft_putnbr_fd.c ft_putstr.c \
 		ft_itoa.c ft_strnstr.c ft_strchr.c ft_strrchr.c ft_memcpy.c \
 		ft_memccpy.c ft_memchr.c ft_memcmp.c ft_memmove.c ft_memalloc.c \
 		ft_memdel.c ft_strnew.c ft_strdel.c ft_strclr.c ft_striter.c \
-		ft_striteri.c 
+		ft_striteri.c ft_strmap.c ft_strmapi.c ft_strjoin.c ft_strsub.c \
+		ft_strtrim.c ft_strsplit.c ft_lstnew.c ft_lstdel.c ft_lstdelone.c \
+		ft_lstadd.c ft_lstiter.c ft_lstmap.c ft_wordcount.c ft_intlen.c
 HEADER = libft.h
 
 $(NAME):
