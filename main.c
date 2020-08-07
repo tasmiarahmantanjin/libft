@@ -169,12 +169,14 @@ printf("[expected]\n");
 printf("0\nhi\n");
 printf("---------------------END_OF FT_STRNEW.C--------------------------\n");
 
-*/
+
 
 printf("[ft_striter]\n");
 char str[] = "hello";
 
 ft_striter(str, &ft_putchar);
 printf("-----------------------------------------------------------------------------\n");
-return (0); 
+*/
+return (0);
 }
+
